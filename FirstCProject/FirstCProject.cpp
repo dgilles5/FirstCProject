@@ -22,7 +22,7 @@ int main() {
     final_price = markup_price * sales_tax + markup_price;
     cout << "The mark up percentage is: " << (mark_up_percentage * 100) << "%" << endl;
     cout << "The sales tax is: " << (sales_tax * 100) << "%" << endl;
-    cout << "The final price is: $" << final_price << fixed << setprecision(2) << endl;
+    cout << "The final price is: $" << fixed << setprecision(2) << showpoint << final_price << endl;
     return 0;
 }
 
